@@ -8,3 +8,10 @@
   - Wrapper: 'modifying/reducing' APIs, to make something general to be customized to our need (we need a term here _specification_)
 
 ## Chapter 2. Basics
+- _Directives_: (命令) not a statement (does not end with `;`); not part of the basic C++ language
+  - preprocessor directive: starts with `#`, an instruction to the compiler (more precisely, the _preprocessor_ of the compiler)
+    - `#include` tells the preprocessor to insert the specified file into the source file (literally)
+```
+# include <iostream>
+```
+  - `using namespace std` directive: telling the preprocessor that the following statements are all in `std` namespace
