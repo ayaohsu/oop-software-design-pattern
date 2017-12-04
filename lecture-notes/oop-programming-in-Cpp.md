@@ -6,3 +6,5 @@
 - Reusability: by adding additional features to an existing class with inheritance (vs wrapping up an existing class)
   - Inheritance: 'adding' APIs, to extend/customize it
   - Wrapper: 'modifying/reducing' APIs, to make something general to be customized to our need (we need a term here _specification_)
+
+## Chapter 2. Basics
