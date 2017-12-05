@@ -15,3 +15,5 @@
 # include <iostream>
 ```
   - `using namespace std` directive: telling the preprocessor that the following statements are all in `std` namespace
+- __Variables__: the named storage in the program that we can manipulate
+  - size: is system dependent. Ex: int occupies 4 bytes(32 bits) in a 32-bit system
